@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(52,52,70);
+}
+.name{
+    color: rgb(0,0,0);
+    font-size:100px;
+    margin-bottom: 0px;
+    padding:0px;
+    margin-left:20vw;
+}
+.description{
+    font-family:anton;
+    margin-left:20vw;
+    margin-top: 0px;
+}
+.bdice{
+    font-size:400px;
+
+}
+.nameinput{
+  height:60px;
+  width: 400px;
+  font-size:30px;
+  background-color: rgb(70,70,70);
+  border:  solid 1px;
+  color: rgb(0,0,0);
+}
+
+.playerName{
+   font-size:20px;
+   justify-content: space-between;
+    display:flex;
+    gap: 200px;
+
+}
+.thbuton{
+    height: 100px;
+    width:1900px;
+    background-color: rgb(52,52,70);
+}
+.box{
+ background: rgb(0,0,0);
+ margin-top:20px;
+ border:2px rgb(0,0,0) solid;
+ border-radius: 20px;
+
+}
+.container{
+  display: flex;
+}
+.shutnum{
+    margin:20px 30px 20px 30px;
+    height:200px;
+    width:50px;
+    font-size: 50px;
+    background: rgb(200,200,200);
+    border:2px rgb(0,0,0) solid;
+    border-radius: 20px;
+    justify-content: center;
+    padding:3.5rem;
+}
+.turn{
+    font-size:50px;
+}
+.britext{
+   color: rgb(200,200,200);
+   font-size: 40px;
+}
+.dice-size{
+    font-size:50px;
+}
+.btgap{
+ display: flex;
+    gap: 5px;
+
+}
+
+.roll{
+    width:200px;
+    height:50px;
+    background-color: rgb(52,52,70);
+    font-size: 30px;
+}
+.midroll{
+    margin-left: 205px;
+    margin-top: 5px;
+     margin-bottom: 5px;
+}
+
+
+.shut{
+    background-color: black;
+    color: white;
+    border-color: yellow;
+}
+.pt1{
+    font-size:30px;
+    background-color: rgb(70,70,70);
+    border:  solid 1px;
+    color: rgb(0,0,0);
+}
+.pt2{
+    font-size:30px;
+    background-color: rgb(70,70,70);
+    border:  solid 1px;
+    color: rgb(0,0,0);
+}
+
+.winner{
+    display:none;
+}
+table{
+    max-width: 800px;
+    width: 50%;
+    text-align:center;
+    margin:auto;
+    font-size: 1.5rem;
+}

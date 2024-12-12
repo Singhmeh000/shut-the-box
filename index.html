@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width,
+       initial-scale=1.0">
+       <link rel="shortcut Icon" href="favicon.png" type="image/x-icon">
+       <script src="https://kit.fontawesome.com/4801d2727d.js" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+       <title></title>
+       <link rel="stylesheet" href="./style.css">
+       <script src="./game.js" defer></script>
+    </head>
+    <body>
+      <div>
+          <ol>
+         <i class="fa-solid fa-dice bdice"></i>
+        </ol>
+      </div>
+         <h1 class="name">shut the box</h1>
+         <h2 class="description">the dice game</h2>
+        <div class="playerName">
+         <h2>player1 name:</h2>
+           <input class="nameinput" id="onepn">
+          <h2>player2 name:</h2>
+           <input class="nameinput" id="twopn">
+      </div>
+       <div class="winner">
+        <p id ="playerwinner"></p>
+      <button id="game-reset"class=roll>Reset</button>
+    </div>
+ <button class="thbuton" id="start"></button>
+ <div class="box">
+<div class="britext" id="pturn">___'s turn</div>
+<div class="container">
+       <div class="shutnum" id="box1">1</div>
+       <div class="shutnum" id="box2">2</div>
+       <div class="shutnum" id="box3">3</div>
+       <div class="shutnum" id="box4">4</div>
+       <div class="shutnum" id="box5">5</div>
+       <div class="shutnum" id="box6">6</div>
+       <div class="shutnum" id="box7">7</div>
+       <div class="shutnum" id="box8">8</div>
+       <div class="shutnum" id="box9">9</div>
+</div>
+</div> <div class="box">
+  <!-- <div class="britext" id="#p2n">___'s box</div> -->
+  <!-- <div class="container">
+         <div class="shutnum" id="box21">1</div>
+         <div class="shutnum" id="box22">2</div>
+         <div class="shutnum" id="box23">3</div>
+         <div class="shutnum" id="box24">4</div>
+         <div class="shutnum" id="box25">5</div>
+         <div class="shutnum" id="box26">6</div>
+         <div class="shutnum" id="box27">7</div>
+         <div class="shutnum" id="box28">8</div>
+         <div class="shutnum" id="box29">9</div>
+  </div> -->
+  </div>
+      <div class="dice-size">
+      <i id="firstdice" class="bi bi-dice-6-fill"></i>
+      <i id="seconddice" class="bi bi-dice-6-fill"></i>
+    </div>
+
+    <button class="roll midroll" id="roll">roll</button>
+    <div class="btgap">
+      <button class="roll" id="split">spilt</button>
+      <button class="roll" id="toget">together</button>
+      <button class="roll" id="reset">reset</button>
+    </div>
+    <button class="roll midroll" id="end">end turn</button>
+    <table>
+      <thead id="table">
+        <tr>
+          <th>Round</th>
+          <th>Player 1 Points</th>
+          <th>Player 2 Points</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+
+</body>
+</html>
