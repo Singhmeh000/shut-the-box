@@ -101,8 +101,8 @@ restart.addEventListener('click', function() {
             tgrbtn.disabled = true;
             sptbtn.disabled = true;
             resetbtn.disabled = false;
-
-            rollbtn.disabled = false;
+            endbtn.disabled = false;
+            rollbtn.disabled = true;
 
             let sptortgr = "tgr";
         }); sptbtn.addEventListener('click', function() {
@@ -113,8 +113,8 @@ restart.addEventListener('click', function() {
             sptbtn.disabled = true;
             tgrbtn.disabled = true;
             resetbtn.disabled = false;
-            rollbtn.disabled = false;
-
+            rollbtn.disabled = true;
+            endbtn.disabled = false;
             let sptortgr = "spt";
         }); resetbtn.addEventListener('click', function() {
            if (sptortgr === "spt"){
