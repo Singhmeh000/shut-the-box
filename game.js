@@ -139,6 +139,7 @@ restart.addEventListener('click', function() {
         }
         resetbtn.disabled = true;
         rollbtn.disabled= true;
+        endbtn.disabled= true;
         });
         endbtn.addEventListener('click', function() {
             buildrow();
