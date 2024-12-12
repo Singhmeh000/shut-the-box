@@ -5,7 +5,7 @@ const sptbtn = document.querySelector("#split");
 const resetbtn = document.querySelector("#reset");
 const endbtn = document.querySelector("#end");
 const firstdice = document.querySelector("#firstdice");
-const seconddice = document.querySelector("#seconddice"); 
+const seconddice = document.querySelector("#seconddice");
 const restart = document.querySelector("#game-reset");
 let onep = document.querySelector("#onepn");
 let twop = document.querySelector("#twopn");
@@ -101,8 +101,8 @@ restart.addEventListener('click', function() {
             tgrbtn.disabled = true;
             sptbtn.disabled = true;
             resetbtn.disabled = false;
-            endbtn.disabled = false;
-            rollbtn.disabled = true;
+            endbtn.disabled = true;
+            rollbtn.disabled = false;
 
             let sptortgr = "tgr";
         }); sptbtn.addEventListener('click', function() {
@@ -113,8 +113,8 @@ restart.addEventListener('click', function() {
             sptbtn.disabled = true;
             tgrbtn.disabled = true;
             resetbtn.disabled = false;
-            rollbtn.disabled = true;
-            endbtn.disabled = false;
+            rollbtn.disabled = false;
+            endbtn.disabled = true;
             let sptortgr = "spt";
         }); resetbtn.addEventListener('click', function() {
            if (sptortgr === "spt"){
@@ -139,7 +139,7 @@ restart.addEventListener('click', function() {
         }
         resetbtn.disabled = true;
         rollbtn.disabled= true;
-        endbtn.disabled= true;
+        endbtn.disabled = true;
         });
         endbtn.addEventListener('click', function() {
             buildrow();
@@ -200,7 +200,6 @@ restart.addEventListener('click', function() {
                 }
 
             } else {
-
                 rollbtn.disabled = false;
                 tgrbtn.disabled = true;
                 sptbtn.disabled = true;
